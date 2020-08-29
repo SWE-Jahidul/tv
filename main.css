@@ -1,0 +1,138 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FF5F5F;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: black;
+}
+
+
+ul li a:hover {
+  background-color: white;
+  text-decoration: none;
+
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #FF5F5F;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+ul li { 
+  list-style: none;
+}
+
+.openbtn:hover {
+  background-color: #FF5F5F;
+  border: none;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+    .add_vedio_card
+    {
+      margin-top: 20%;
+    }
+
+
+       #add {
+      width: 25%;
+      border-radius: 25px;
+      margin-top: 10px;
+      margin-left: 350px;
+    }
+
+
+    #suspend
+    {
+      text-align: center;
+    
+      border-radius: 25px;
+
+      font-size: 1rem;
+
+    }
+  
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+
+ .paging_simple_numbers{
+
+ padding-top: 5px;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+   #add {
+      width: 100%;
+      border-radius: 25px;
+      margin-top: 10px;
+      margin-left: 0px;
+
+}
+
+
+ .dataTables_info{
+     margin-left: 0px;
+     margin-bottom: 10px;
+    }
+
+
+}
+
+
+    .card_user_details
+    {
+      margin-top: 5%;
+    }
+
+
+     .dataTables_info{
+     margin-left: 30px;
+    }
+
