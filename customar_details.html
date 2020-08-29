@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+   <h4 style="color: white; text-align: center ;font-weight:bold; ">Free Contents </h4>
+ <ul>
+ <li><a href="#">Natok</a></li>
+
+            <li><a href="#">News</a></li>
+            <li><a href="#">TalkShow </a></li>
+            <li><a href="#">Fun </a></li>
+</ul>
+  <ul>                      <h4 style="color: white ; font-weight:bold; "> Primium Contents </h4>
+            <li><a href="#">Natok</a></li>
+            <li><a href="#">News</a></li>
+     </ul> 
+
+
+       <ul>                      <h4 style="color: white ; font-weight:bold; "> Manage User </h4>
+            <li><a href="#">All User </a></li>
+            <li><a href="#">Only Pro User </a></li>
+               <li><a href="#">Only Free User </a></li>
+     </ul> 
+</div>
+
+<div id="main">
+ 
+ 
+ 
+
+<div class="row">
+
+<div class="col-lg-2">
+  <button class="openbtn" onclick="openNav()">☰ </button>  
+</div>
+
+
+<div class="col-lg-8">
+    <div class="col-lg-12">
+
+       <div class="">
+      <div class="row mt-5">
+        
+        <div class="col-md-4"> Total User : <span>999 </span> </div>
+        <div class="col-md-4"> </div>
+        <div class="col-md-4"> Primium User : <span>999 </span> </div>
+      </div>
+    </div>
+            <div class="card card_user_details mt-5">
+              <div class="card-header"><i class="fa fa-table"></i> Data Exporting</div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table id="example" class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>User Name </th>
+                        <th>Status</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Jahid</td>
+                        <td>jahid123</td>
+                        <td>Free</td>
+                        <td> <button type="button" id="suspend" class="btn  btn-outline-danger btn-sm">Suspend </button></td>
+                      </tr>
+                      <tr>
+                        <td>Himel</td>
+                        <td>himel07</td>
+                        <td>Primium</td>
+                        <td> <button type="button" id="suspend" class="btn  btn-outline-danger btn-sm">Suspend </button></td>
+                      </tr>
+                     <tr>
+                        <td>Jubel</td>
+                        <td>himel07</td>
+                        <td>Free</td>
+                        <td>Suspended</td>
+                      </tr>
+                    
+                      <tr>
+                         <td>Himel</td>
+                        <td>himel07</td>
+                        <td>Primium</td>
+                        <td> <button type="button" id="suspend" class="btn  btn-outline-danger btn-sm">Suspend </button></td>
+                      </tr>
+                      <tr>
+                   <td>Jubel</td>
+                        <td>himel07</td>
+                        <td>Free</td>
+                        <td>Suspended</td>
+                      </tr>
+                      <tr>
+                         <td>Jahid</td>
+                        <td>jahid123</td>
+                        <td>Free</td>
+                        <td> <button type="button" id="suspend" class="btn  btn-outline-danger btn-sm">Suspend </button></td>
+                      </tr>
+                      <tr/>
+                       <tr>
+                         <td>Jahid</td>
+                        <td>jahid123</td>
+                        <td>Free</td>
+                        <td> <button type="button" id="suspend" class="btn  btn-outline-danger btn-sm">Suspend </button></td>
+                      </tr>
+                      <tr>
+                            <td>Himel</td>
+                        <td>himel07</td>
+                        <td>Primium</td>
+                        <td> <button type="button" id="suspend" class="btn  btn-outline-danger btn-sm">Suspend </button></td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                           <td>Himel</td>
+                        <td>himel07</td>
+                        <td>Primium</td>
+                        <td> <button type="button" id="suspend" class="btn  btn-outline-danger btn-sm">Suspend </button></td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-md-5">
+                  <div class="dataTables_info" id="default-datatable_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div>
+                </div>
+                <div class="col-sm-12 col-md-7">
+                  <div class="dataTables_paginate paging_simple_numbers" id="default-datatable_paginate">
+                    <ul class="pagination">
+                      <li class="paginate_button page-item previous disabled" id="default-datatable_previous"><a href="#" aria-controls="default-datatable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li>
+                      <li class="paginate_button page-item active"><a href="#" aria-controls="default-datatable" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
+                      <li class="paginate_button page-item "><a href="#" aria-controls="default-datatable" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
+                      <li class="paginate_button page-item "><a href="#" aria-controls="default-datatable" data-dt-idx="3" tabindex="0" class="page-link">3</a></li>
+                      <li class="paginate_button page-item "><a href="#" aria-controls="default-datatable" data-dt-idx="4" tabindex="0" class="page-link">4</a></li>
+                    
+                      <li class="paginate_button page-item next" id="default-datatable_next"><a href="#" aria-controls="default-datatable" data-dt-idx="7" tabindex="0" class="page-link">Next</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+</div>
+
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html> 
