@@ -104,6 +104,8 @@ ul li {
 
     }
   
+
+
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
@@ -135,6 +137,15 @@ ul li {
     }
 
 
+  .search_btn{
+  width: 90%;
+  position: absolute;
+
+  margin-left: -100px;
+}
+
+
+
 }
 
 
@@ -144,7 +155,5 @@ ul li {
     }
 
 
-     .dataTables_info{
-     margin-left: 30px;
-    }
+ 
 
