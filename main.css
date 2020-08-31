@@ -18,21 +18,27 @@ body {
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: black;
   display: block;
   transition: 0.3s;
 }
 
+
 .sidebar a:hover {
-  color: black;
+  color: red;
+  font-weight: bold;
+   background-color: white;
+  text-decoration: none;
+  border-radius: 12px;
 }
 
 
-ul li a:hover {
-  background-color: white;
-  text-decoration: none;
 
+.x 
+{
+  margin-top:-18px;
+  margin-left: -20px;
 }
 
 .sidebar .closebtn {
@@ -42,7 +48,12 @@ ul li a:hover {
   font-size: 36px;
   margin-left: 50px;
   text-decoration: none;
+ height: 40px;
+
+ margin-top:20px;
 }
+
+
 
 .openbtn {
   font-size: 20px;
@@ -55,6 +66,7 @@ ul li a:hover {
 
 ul li { 
   list-style: none;
+
 }
 
 .openbtn:hover {
